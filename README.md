@@ -5,7 +5,6 @@ This project aims to predict whether a patient with Type 2 Diabetes Mellitus (DM
 
 ## Dataset Description
 The dataset contains the following key features:
-- **Unique_Identifier**: Patient tracking identifier.
 - **Gender**: Male or Female.
 - **Religion & Nationality**: Categorical data that was preprocessed.
 - **Avg_HBA1C Results**: Average Hemoglobin A1C test results.
@@ -45,18 +44,13 @@ The dataset contains the following key features:
 
 ### 4. Inference on Test Data
    - Applied the same preprocessing steps as training.
-   - Used the trained Random Forest model for predictions.
-   - Generated output as a CSV file with `Unique Identifier` and predicted `Chronic flag`.
+   - Used the trained Random Forest model for predictions. 
 
 ## Results
 - **Key predictive features**: Outpatient visits, Avg_HBA1C result, Acute flag, and Age.
 - **Performance**: The **Random Forest** model provided the best classification for chronic complications.
 - **Limitations**: Misclassification of some patients, especially the minority class.
 
-## Deliverables
-- A **Jupyter Notebook (`.ipynb`)** with full data preprocessing, model training, and evaluation.
-- A **detailed report (`.pdf`)** explaining methodology, insights, and findings.
-- A **CSV file** containing predictions for unseen test data.
 
 ## Future Improvements
 - Additional feature engineering.
